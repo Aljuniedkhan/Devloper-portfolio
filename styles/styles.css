@@ -4,8 +4,9 @@ body {
 
 nav {
     display: flex;
-     justify-content: space-between;
+    justify-content: space-between;
     align-items: center;
+    padding: 0px 200px;
 
 }
 
@@ -23,7 +24,7 @@ nav {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    padding:15px 35px;
+    padding: 15px 35px;
 }
 
 .nav-style {
@@ -45,4 +46,35 @@ nav li {
 
 nav a {
     text-decoration: none;
+}
+
+/* Header related style */
+.header {
+    background-color: #FFF8F3;
+}
+
+.banner {
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+
+.contact-button {
+    width: 160px;
+    height: 64px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    border: 1px solid #FD6E0A;
+    color: #FD6E0A;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.profile-pic{
+    width: 584px;
+    height: 676px;
+    flex-shrink: 0;
 }
